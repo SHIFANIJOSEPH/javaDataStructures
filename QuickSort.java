@@ -58,7 +58,7 @@ class QuickSort {
             elements[index] = random.nextInt();
         }
 
-        long startTime = System.currentTimeMillis();
+        long startTime = System.currentTimeMillis();     //to check the runtime complexity
         quickSort(elements);
         long endTime = System.currentTimeMillis();
 
